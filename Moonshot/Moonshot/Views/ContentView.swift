@@ -20,9 +20,7 @@ struct ContentView: View {
             ScrollView {
                 LazyVGrid(columns: columns, spacing: 18) {
                     ForEach(missions) { mission in
-                        NavigationLink(destination: {
-                            MissionView(mission: mission, astronauts: astronauts)
-                        }, label: {
+                        NavigationLink(value: mission, label: {
                             VStack {
                                 Image(mission.image)
                                     .resizable()
@@ -48,8 +46,10 @@ struct ContentView: View {
                                     .stroke(.lightBackground)
                             )
                         })
-                        
                     }
+                    .navigationDestination(for: Mission.self, destination: { mission in
+                        MissionView(mission: mission, astronauts: astronauts)
+                    })
                 }
                 .padding([.horizontal, .bottom])
             }

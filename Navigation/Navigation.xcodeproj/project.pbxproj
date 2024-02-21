@@ -16,6 +16,7 @@
 		2CED81CC2B86538E002B5FE4 /* ProgrammaticDifferentDataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED81CB2B86538E002B5FE4 /* ProgrammaticDifferentDataTypes.swift */; };
 		2CED81CE2B865462002B5FE4 /* ReturnToRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED81CD2B865462002B5FE4 /* ReturnToRootView.swift */; };
 		2CED81D02B865590002B5FE4 /* PathStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED81CF2B865590002B5FE4 /* PathStore.swift */; };
+		2CED81D22B866CB5002B5FE4 /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED81D12B866CB5002B5FE4 /* CustomNavigationBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		2CED81CB2B86538E002B5FE4 /* ProgrammaticDifferentDataTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticDifferentDataTypes.swift; sourceTree = "<group>"; };
 		2CED81CD2B865462002B5FE4 /* ReturnToRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnToRootView.swift; sourceTree = "<group>"; };
 		2CED81CF2B865590002B5FE4 /* PathStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathStore.swift; sourceTree = "<group>"; };
+		2CED81D12B866CB5002B5FE4 /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				2CED81BE2B852764002B5FE4 /* Preview Content */,
 				2CED81C92B865346002B5FE4 /* DifferentDataTypesNavigation.swift */,
 				2CED81CD2B865462002B5FE4 /* ReturnToRootView.swift */,
+				2CED81D12B866CB5002B5FE4 /* CustomNavigationBar.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 				2CED81CE2B865462002B5FE4 /* ReturnToRootView.swift in Sources */,
 				2CED81C72B86520E002B5FE4 /* ProgrammaticNavigation.swift in Sources */,
 				2CED81CC2B86538E002B5FE4 /* ProgrammaticDifferentDataTypes.swift in Sources */,
+				2CED81D22B866CB5002B5FE4 /* CustomNavigationBar.swift in Sources */,
 				2CED81D02B865590002B5FE4 /* PathStore.swift in Sources */,
 				2CED81B92B852762002B5FE4 /* NavigationApp.swift in Sources */,
 				2CED81CA2B865346002B5FE4 /* DifferentDataTypesNavigation.swift in Sources */,
