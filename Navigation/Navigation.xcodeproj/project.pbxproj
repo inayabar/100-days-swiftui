@@ -11,6 +11,11 @@
 		2CED81BB2B852762002B5FE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED81BA2B852762002B5FE4 /* ContentView.swift */; };
 		2CED81BD2B852764002B5FE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CED81BC2B852764002B5FE4 /* Assets.xcassets */; };
 		2CED81C02B852764002B5FE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CED81BF2B852764002B5FE4 /* Preview Assets.xcassets */; };
+		2CED81C72B86520E002B5FE4 /* ProgrammaticNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED81C62B86520E002B5FE4 /* ProgrammaticNavigation.swift */; };
+		2CED81CA2B865346002B5FE4 /* DifferentDataTypesNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED81C92B865346002B5FE4 /* DifferentDataTypesNavigation.swift */; };
+		2CED81CC2B86538E002B5FE4 /* ProgrammaticDifferentDataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED81CB2B86538E002B5FE4 /* ProgrammaticDifferentDataTypes.swift */; };
+		2CED81CE2B865462002B5FE4 /* ReturnToRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED81CD2B865462002B5FE4 /* ReturnToRootView.swift */; };
+		2CED81D02B865590002B5FE4 /* PathStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED81CF2B865590002B5FE4 /* PathStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		2CED81BA2B852762002B5FE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2CED81BC2B852764002B5FE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CED81BF2B852764002B5FE4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2CED81C62B86520E002B5FE4 /* ProgrammaticNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticNavigation.swift; sourceTree = "<group>"; };
+		2CED81C92B865346002B5FE4 /* DifferentDataTypesNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferentDataTypesNavigation.swift; sourceTree = "<group>"; };
+		2CED81CB2B86538E002B5FE4 /* ProgrammaticDifferentDataTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticDifferentDataTypes.swift; sourceTree = "<group>"; };
+		2CED81CD2B865462002B5FE4 /* ReturnToRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnToRootView.swift; sourceTree = "<group>"; };
+		2CED81CF2B865590002B5FE4 /* PathStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +62,14 @@
 			isa = PBXGroup;
 			children = (
 				2CED81B82B852762002B5FE4 /* NavigationApp.swift */,
+				2CED81CF2B865590002B5FE4 /* PathStore.swift */,
 				2CED81BA2B852762002B5FE4 /* ContentView.swift */,
+				2CED81C62B86520E002B5FE4 /* ProgrammaticNavigation.swift */,
+				2CED81CB2B86538E002B5FE4 /* ProgrammaticDifferentDataTypes.swift */,
 				2CED81BC2B852764002B5FE4 /* Assets.xcassets */,
 				2CED81BE2B852764002B5FE4 /* Preview Content */,
+				2CED81C92B865346002B5FE4 /* DifferentDataTypesNavigation.swift */,
+				2CED81CD2B865462002B5FE4 /* ReturnToRootView.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -138,7 +153,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CED81BB2B852762002B5FE4 /* ContentView.swift in Sources */,
+				2CED81CE2B865462002B5FE4 /* ReturnToRootView.swift in Sources */,
+				2CED81C72B86520E002B5FE4 /* ProgrammaticNavigation.swift in Sources */,
+				2CED81CC2B86538E002B5FE4 /* ProgrammaticDifferentDataTypes.swift in Sources */,
+				2CED81D02B865590002B5FE4 /* PathStore.swift in Sources */,
 				2CED81B92B852762002B5FE4 /* NavigationApp.swift in Sources */,
+				2CED81CA2B865346002B5FE4 /* DifferentDataTypesNavigation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
